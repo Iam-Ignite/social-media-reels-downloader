@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "social-media-downloader",
+    "name": "Social Media Downloader",
     "slug": "social-media-downloader",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -22,7 +22,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.feelsmula.socialmediadownloader"
     },
     "web": {
       "bundler": "metro",
@@ -34,6 +35,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "08e405a8-c93f-44bb-b0eb-91cbdd2f84b3"
+      }
     }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-4076168059895058~6740138948",
+    "ios_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx"
   }
 }
